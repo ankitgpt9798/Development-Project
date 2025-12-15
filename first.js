@@ -1,6 +1,6 @@
 const name="Ankit";
 const age =200; 
-const balance=350;
+// const balance=350;
 
 const amount = 4500;
 
