@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background: linear-gradient(135deg, #1e3c72, #2a5298);
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  text-align: center;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+#countdown {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.time-box {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 1rem 2rem;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+.time-box span {
+  font-size: 2rem;
+  display: block;
+  font-weight: bold;
+}
+
+.time-box p {
+  margin-top: 0.5rem;
+  font-size: 1rem;
+  opacity: 0.8;
+}
