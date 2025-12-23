@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h2 class="title">BMI CALCULATOR</h2>
+      
+    <div class="body">
+    <div class="left">
+     <h2 class="height">Height</h2>
+     <div id="input1">
+        <select id="feet">
+            <option>4</option>
+            <option selected>5</option>
+            <option>6</option>
+        </select>
+        <span>Feet</span>
+     </div>
+     <div id="input2">
+        <select id="inches">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+            <option>6</option>
+            <option selected>7</option>
+            <option>8</option>
+            <option>9</option>
+            <option>0</option>
+            <option>10</option>
+            <option>11</option>
+        </select>
+        <span>Inches</span>
+     </div>
+     </div>
+
+     <div class="right">
+        <h2 class="Weight">Weight</h2>
+        <div id="input3">
+            <input id="weight" type="number" value="73">
+            <span>Kg</span>
+        </div>
+     </div>
+     </div>
+       
+    
+        <div class="btn-row">
+            <button id="calbtn" class="btn primary">Calculate Your BMI</button>
+            <button id="resbtn" class="btn outline">Reset</button>
+        </div>
+         <p id="output" style="margin-top:20px; font-size:18px; font-weight:bold;"></p>
+    </div>
+  <div class="photo">
+    <img src="./1.png" alt="" height="300px" width="600px">
+   </div>
+<script src="first.js"></script>
+
+</body>
+</html>
